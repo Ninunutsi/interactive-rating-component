@@ -1,0 +1,154 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Overpass', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+body{
+    background: hsl(216, 12%, 8%);
+    height: 100vh;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    background-color: hsl(213, 19%, 18%);
+    border-radius: 20px;
+    padding: 20px;
+
+}
+
+.hidden{
+    display: none;
+}
+
+.content{
+    max-width: 320px;
+    height: auto;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    margin: 3%;
+}
+
+.star-div{
+    padding: 15px 15px 10px 15px;
+    border-radius: 50%;
+    background-color: hsla(216, 12%, 54%, 0.135);
+}
+
+h2{
+    font-weight: 700;
+    color: white;
+    font-size: 19px;
+    line-height: 29px;
+}
+
+p{
+    color: hsl(216, 11%, 52%);
+    line-height: 23px;
+    font-size: 14px;
+}
+
+.inputs{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+input{
+    color: hsl(217, 12%, 63%);
+    background-color: hsla(216, 12%, 54%, 0.135);
+    border: none;
+    border-radius: 50%;
+    padding: 13px 19px;
+    cursor: pointer;
+}
+
+input:hover{
+    background-color: hsl(216, 12%, 54%);
+    transition: 1s;
+    color: white;
+}
+
+input:focus{
+    background-color: hsl(25, 97%, 53%);
+    color: white;
+    transition: 1s;
+}
+
+.submit{
+    width: 100%;
+    text-align: center;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    background-color: hsl(25, 97%, 53%);
+    padding: 10px 0;
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 1.3px;
+    font-size: 14px;
+    margin-top: 15px;
+}
+
+.submit:hover{
+    background-color: white;
+    color: hsl(25, 97%, 53%);
+    transition: 0.7s;
+}
+
+/* thank you */
+
+.thank-you{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.thank-you img{
+    width: 120px;
+}
+
+#error-msg{
+    color: hsl(25, 97%, 53%);
+    font-size: 11px;
+    display: none;
+}
+
+.rate{
+    background-color: hsla(216, 12%, 54%, 0.135);
+    padding: 4px 30px;
+    border-radius: 20px;
+    color: hsl(25, 97%, 53%);
+    font-size: 15px;
+    line-height: 25px;
+    margin: 10px 0 13px 0;
+}
+
+.ty{
+    color: white;
+    font-size: 21px;
+    line-height: 31px;
+    font-weight: 700;
+}
+
+.thank-you p{
+    text-align: center;
+}
+
+#arrow{
+    color: hsl(25, 97%, 53%);
+    align-self: self-start;
+    cursor: pointer;
+}
